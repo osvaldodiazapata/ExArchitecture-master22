@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mListar"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:title="@string/lista" />
+
+    <item
+        android:id="@+id/mCrear"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/crear" />
+
+    <item
+        android:id="@+id/mBuscar"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/buscar" />
+
+    <item
+        android:id="@+id/mActualizar"
+        android:icon="@drawable/ic_update_black_24dp"
+        android:title="@string/actualizar" />
+
+    <item
+        android:id="@+id/mBorrar"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="@string/borrar" />
+
+</menu>

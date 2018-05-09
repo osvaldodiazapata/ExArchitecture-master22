@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ExArchitecture</string>
+    <string name="num1">Numero 1</string>
+    <string name="num2">Numero 2</string>
+    <string name="calcular">Sumar</string>
+</resources>

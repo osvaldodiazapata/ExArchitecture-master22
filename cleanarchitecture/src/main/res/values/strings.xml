@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mi agenda</string>
+    <string name="lista">Lista</string>
+    <string name="crear">Crear</string>
+    <string name="buscar">Buscar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="borrar">Borrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="correo">Correo</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BuscarFragment">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/eNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre"
+
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/buscar"
+        android:id="@+id/btnBuscar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tNombre"
+        android:text="@string/nombre"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tTelefono"
+        android:text="@string/telefono"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tCorreo"
+        android:text="@string/correo"
+        android:textSize="20sp"/>
+
+</LinearLayout>
